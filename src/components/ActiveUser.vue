@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2>
-      {{ username ? username : "no user detected" }}
+      {{ username || "no user detected" }}
     </h2>
     <h3>{{ age ? `${age} years old` : "" }}</h3>
   </section>

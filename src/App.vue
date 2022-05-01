@@ -15,8 +15,8 @@ export default {
   },
   data() {
     return {
-      username: "Mahmoud",
-      userAge: 29,
+      username: "",
+      userAge: 0,
     };
   },
   methods: {
